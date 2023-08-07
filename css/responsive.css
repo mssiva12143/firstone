@@ -1,0 +1,330 @@
+@media only screen and (max-width:992px){
+    header{
+        position: relative;
+    }
+    .keira_menu{
+        display: none;
+    }
+    .keira_menu{
+        width: 100%;
+        position: absolute;
+        top: 90px;
+        /* bottom: px; */
+        left: 0;
+        text-align: center;
+        padding: 2px 0;
+    }
+    .keira_menu ul{
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+    }
+    .keira_menu li{
+        padding: 10px 0;
+    }
+    .keira_menu li:hover{
+        background-color: #4a4a4a50;
+        transform: scale(1.2);
+    }
+    .keira_menu li:hover a{
+        color: #ff3d4f;
+    }
+    .keira_menu_button{
+        display: block;
+    }
+    .keira_about_image{
+        width: 100%;
+    }
+    .keira_about_image img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .keira_about_image::after{
+        display: none;
+    }
+    .keira_about_text{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .keira_button::before{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #ff3d4f;
+        display: block;
+        transition: width .5s;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: .3s;
+        transition-delay: .9s;
+    }
+    .keira_button::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #ff3d4f;
+        display: block;
+        transition: width .5s;
+        position: absolute;
+        bottom: 0;
+        left: 100%;
+        transition: .3s;
+        transition-delay: .3s;
+    }
+    .keira_button:hover::before{
+        left: 0;
+        transition: 0.3s ;
+    }
+    .keira_button:hover::after{
+        left: 0;
+        transition: 0.3s;
+        transition-delay: .6s;
+    }
+    
+    .service1,.service2,.service3{
+        width: 100%;
+        transform: translateY(0);
+        margin: 20px 0;
+    }
+    .service1 div,.service2 div,.service3 div{
+        padding: 10px 20px;
+
+    }
+    .project1,.project2,.project3,.project4,.project5{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .project1 .fa-eye,.project2 .fa-eye,.project3 .fa-eye,.project4 .fa-eye,.project5 .fa-eye{
+        left: 290px;
+    }
+    .resume1,.resume2,.resume3{
+        width: 80%;
+        margin: 30px auto;
+        transform: translateY(0);
+    }
+    .blog1,.blog2,.blog3{
+        width: 80%;
+        margin: 30px auto;
+        transform: translateY(0);
+    }
+    .blog1img,.blog2img,.blog3img{
+        height: 250px;
+    }
+    .contact1,.contact2{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .shade{
+        left: 15px;
+    }
+
+}
+
+
+@media only screen and (max-width:768px){
+    .keira_cont{
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .keira_inner_cont{
+        width: 100%;
+        
+    }
+    .keira_inner_cont h1{
+        font-size: 60px;
+    }
+    .keira_inner_cont > h1:after{
+        top: 15px;
+    }
+    .keira_works{
+        width: 50%;
+        margin: 20px 0;
+    }
+    .keira_about_image{
+        width: 100%;
+    }
+    .keira_about_image img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .keira_about_image::after{
+        display: none;
+    }
+    .keira_about_text{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .keira_button::before{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #ff3d4f;
+        display: block;
+        transition: width .5s;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: .3s;
+        transition-delay: .9s;
+    }
+    .keira_button::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #ff3d4f;
+        display: block;
+        transition: width .5s;
+        position: absolute;
+        bottom: 0;
+        left: 100%;
+        transition: .3s;
+        transition-delay: .3s;
+    }
+    .keira_button:hover::before{
+        left: 0;
+        transition: 0.3s ;
+    }
+    .keira_button:hover::after{
+        left: 0;
+        transition: 0.3s;
+        transition-delay: .6s;
+    }
+    
+    .service1,.service2,.service3{
+        width: 100%;
+        transform: translateY(0);
+        margin: 20px 0;
+    }
+    .project1,.project2,.project3,.project4,.project5{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .project1 .fa-eye,.project2 .fa-eye,.project3 .fa-eye,.project4 .fa-eye,.project5 .fa-eye{
+        left: 290px;
+    }
+    .resume1,.resume2,.resume3{
+        width: 80%;
+        margin: 30px auto;
+        transform: translateY(0);
+    }
+    .blog1,.blog2,.blog3{
+        width: 80%;
+        margin: 30px auto;
+        transform: translateY(0);
+    }
+    .blog1img,.blog2img,.blog3img{
+        height: 250px;
+    }
+    .contact1,.contact2{
+        width: 80%;
+        margin: 30px auto;
+    }
+    .shade{
+        left: 10px;
+    }
+
+}
+@media only screen and (max-width:480px){
+    .keira_cont{
+        width: 100%;
+    }
+    .keira_inner_cont{
+        width: 100%;
+    }
+    .keira_inner_cont h1{
+        font-size: 40px;
+    }
+    .keira_inner_cont > h1:after{
+        top: 15px;
+    }
+    .keira_works{
+        width: 50%;
+        margin: 20px 0;
+    }
+    .keira_about_image{
+        width: 100%;
+    }
+    .keira_about_image img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .keira_about_image::after{
+        display: none;
+    }
+    .keira_about_text{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .keira_button::before{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #ff3d4f;
+        display: block;
+        transition: width .5s;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: .3s;
+        transition-delay: .9s;
+    }
+    .keira_button::after{
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: #ff3d4f;
+        display: block;
+        transition: width .5s;
+        position: absolute;
+        bottom: 0;
+        left: 100%;
+        transition: .3s;
+        transition-delay: .3s;
+    }
+    .keira_button:hover::before{
+        left: 0;
+        transition: 0.3s ;
+    }
+    .keira_button:hover::after{
+        left: 0;
+        transition: 0.3s;
+        transition-delay: .6s;
+    }
+    
+    .service1,.service2,.service3{
+        width: 100%;
+        transform: translateY(0);
+        margin: 20px 0;
+    }
+    .project1,.project2,.project3,.project4,.project5{
+        width: 100%;
+        margin: 30px auto;
+    }
+    .project1 .fa-eye,.project2 .fa-eye,.project3 .fa-eye,.project4 .fa-eye,.project5 .fa-eye{
+        left: 290px;
+    }
+    .resume1,.resume2,.resume3{
+        width: 100%;
+        margin: 30px auto;
+        transform: translateY(0);
+    }
+    .blog1,.blog2,.blog3{
+        width: 100%;
+        margin: 30px auto;
+        transform: translateY(0);
+    }
+    .blog1img,.blog2img,.blog3img{
+        height: 250px;
+    }
+    .contact1,.contact2{
+        width: 100%;
+        margin: 30px auto;
+    }
+    .shade{
+        left: 8px;
+    }
+}
